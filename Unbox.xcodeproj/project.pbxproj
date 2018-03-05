@@ -179,6 +179,7 @@
 		524F1ECF1E89C466000AC6FE /* UnboxArrayContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524F1ECC1E89C466000AC6FE /* UnboxArrayContainer.swift */; };
 		524F1ED01E89C466000AC6FE /* UnboxArrayContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524F1ECC1E89C466000AC6FE /* UnboxArrayContainer.swift */; };
 		52D6D9871BEFF229002C0205 /* Unbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6D97C1BEFF229002C0205 /* Unbox.framework */; };
+		5A00A3ED204DAE2400EC11C1 /* Unwrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A00A3EC204DAE2400EC11C1 /* Unwrap.swift */; };
 		DD7502881C68FEDE006590AF /* Unbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6DA0F1BF000BD002C0205 /* Unbox.framework */; };
 		DD7502921C690C7A006590AF /* Unbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6D9F01BEFFFBE002C0205 /* Unbox.framework */; };
 /* End PBXBuildFile section */
@@ -256,6 +257,7 @@
 		52D6D9E21BEFFF6E002C0205 /* Unbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Unbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D6D9F01BEFFFBE002C0205 /* Unbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Unbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D6DA0F1BF000BD002C0205 /* Unbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Unbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A00A3EC204DAE2400EC11C1 /* Unwrap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unwrap.swift; sourceTree = "<group>"; };
 		AD2FAA261CD0B6D800659CF4 /* Unbox.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Unbox.plist; sourceTree = "<group>"; };
 		AD2FAA281CD0B6E100659CF4 /* UnboxTests.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = UnboxTests.plist; sourceTree = "<group>"; };
 		DD75027A1C68FCFC006590AF /* Unbox-macOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unbox-macOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -363,6 +365,7 @@
 				524F1E041E89B0A3000AC6FE /* UnboxPathError.swift */,
 				524F1E9F1E89BF6C000AC6FE /* UnboxPathNode.swift */,
 				524F1E901E89BDFC000AC6FE /* URL+Unbox.swift */,
+				5A00A3EC204DAE2400EC11C1 /* Unwrap.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -725,6 +728,7 @@
 				524F1E141E89B276000AC6FE /* UnboxCompatible.swift in Sources */,
 				524F1E9B1E89BE5D000AC6FE /* Unboxer.swift in Sources */,
 				524F1DF71E89AFE0000AC6FE /* Unbox.swift in Sources */,
+				5A00A3ED204DAE2400EC11C1 /* Unwrap.swift in Sources */,
 				524F1EB41E89C0E8000AC6FE /* Typealiases.swift in Sources */,
 				524F1E6E1E89BB05000AC6FE /* Decimal+Unbox.swift in Sources */,
 				524F1EAF1E89C0BF000AC6FE /* UnboxPath.swift in Sources */,

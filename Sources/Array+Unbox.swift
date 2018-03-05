@@ -33,6 +33,6 @@ extension Array: UnboxPathNode {
             return nil
         }
 
-        return self[index]
+        return unwrapIfNeeded(self[index])
     }
 }

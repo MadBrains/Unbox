@@ -49,17 +49,7 @@ extension Dictionary: UnboxPathNode {
         guard let v = self[key as! Key] else {
             return nil
         }
-        return unwrap(v)
-    }
-    
-    private func unwrap(_ any:Any) -> Any {
-        let mirror = Mirror(reflecting: any)
-        guard mirror.displayStyle == .optional,
-            let first = mirror.children.first
-            else {
-                return any
-        }
-        return first.value
+        return unwrapIfNeeded(v)
     }
 }
 
