@@ -46,7 +46,20 @@ extension Dictionary: UnboxableCollection {
 /// Extension making `Dictionary` an unbox path node
 extension Dictionary: UnboxPathNode {
     func unboxPathValue(forKey key: String) -> Any? {
-        return self[key as! Key]
+        guard let v = self[key as! Key] else {
+            return nil
+        }
+        return unwrap(v)
+    }
+    
+    private func unwrap(_ any:Any) -> Any {
+        let mirror = Mirror(reflecting: any)
+        guard mirror.displayStyle == .optional,
+            let first = mirror.children.first
+            else {
+                return any
+        }
+        return first.value
     }
 }
 

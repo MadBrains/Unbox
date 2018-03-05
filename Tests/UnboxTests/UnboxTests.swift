@@ -827,7 +827,7 @@ class UnboxTests: XCTestCase {
         
         let dictionary: UnboxableDictionary = [
             "required" : ["Hello", "This"],
-            "optional" : ["Is", "Unbox"]
+            "optional" : Optional(["Is", "Unbox"])
         ]
         
         do {
